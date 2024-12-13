@@ -1,5 +1,5 @@
 // pages/api/webhooks/stripe.js
-import { supabaseService } from '../../utils/supabaseService';
+import { supabaseService } from '../../../utils/supabaseService';
 import { buffer } from 'micro';
 import Stripe from 'stripe';
 
