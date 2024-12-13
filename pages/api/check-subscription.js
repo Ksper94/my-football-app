@@ -1,5 +1,5 @@
 // pages/api/check-subscription.js
-import { supabaseService } from '../../../utils/supabaseService';
+import { supabaseService } from '../../utils/supabaseService';
 
 export default async function handler(req, res) {
   const { user_id } = req.body;
